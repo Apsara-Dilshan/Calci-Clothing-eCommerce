@@ -1,0 +1,52 @@
+header a {
+  color: #ff9500;
+  font-weight: bold;
+  text-decoration: none;
+}
+.Men-heading {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 0.1rem solid var(--light-color);
+  font-size: 3rem;
+  color: var(--black-color);
+  text-transform: uppercase;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.Men-heading span {
+  color: var(--orange);
+  text-transform: uppercase;
+}
+main {
+  padding: 1rem;
+}
+.Products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Product {
+  border: 1px black solid;
+  margin: 1rem;
+}
+
+.Product img {
+  width: 100%;
+  max-width: 400px;
+}
+.Product-info {
+  padding: 1rem;
+}
+.Product-info .content {
+  color: var(--black-color);
+  font-weight: normal;
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+}
+.Product-info .price {
+  color: var(--orange);
+  font-weight: bolder;
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+}

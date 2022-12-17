@@ -13,7 +13,7 @@ main {
   flex: 1;
 }
 .btn-primary {
-  background-color: #f0c040;
+  background-color: orange;
   color: #000000;
 }
 .products {
@@ -21,9 +21,11 @@ main {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .rating span {
   color: #ffc000;
 }
+
 .product {
   border: 1px #404040 solid;
   margin: 1rem;
@@ -37,19 +39,4 @@ main {
 }
 .img-large {
   max-width: 100%;
-}
-.img-thumbnail {
-  height: 80px;
-}
-.small-container {
-  max-width: 600px;
-}
-
-.checkout-steps > div {
-  border-bottom: 0.2rem solid #a0a0a0;
-  color: #a0a0a0;
-}
-.checkout-steps > div.active {
-  border-bottom: 0.2rem solid #f08000;
-  color: #f08000;
 }
